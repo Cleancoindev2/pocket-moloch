@@ -1,4 +1,4 @@
-service: <your service name here>
+service: trojan-dao
 
 plugins:
   - serverless-single-page-app-plugin
