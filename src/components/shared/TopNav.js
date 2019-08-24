@@ -29,7 +29,7 @@ const TopNav = (props) => {
         <p>back</p>
       ) : (
         <Link className="Brand" to="/">
-          <img src={Brand} alt="Pocket Moloch" />
+          <img src={Brand} alt="Trojan" />
         </Link>
       )}
 
