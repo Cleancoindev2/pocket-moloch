@@ -108,10 +108,10 @@ const Home = ({ client }) => {
         return (
           <div className="Home">
             <div className="Intro">
-              <h1>MetaCartel DAO</h1>
+              <h1>Trojan DAO</h1>
               <p>
-                If you want to go fast, go alone.<br />
-                If you want to go far, go together.
+                A NEW COLLABORATIVE CULTURAL ECOSYSTEM EMPOWERED BY BLOCKCHAIN<br />
+                STARTING FROM ATHENS, GREECE
               </p>
             </div>
             <div className="Chart" style={{ width: '100%', height: '33vh' }}>
@@ -147,7 +147,7 @@ const Home = ({ client }) => {
               </ResponsiveContainer>
             </div>
             <div className="Data">
-              <div 
+              <div
                   onClick={() => setChartView('bank')}
                   className={'Bank' + (chartView === 'bank' ? ' Selected' : '')}
                 >
